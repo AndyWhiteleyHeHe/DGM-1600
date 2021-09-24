@@ -1,0 +1,132 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #16a361;
+    font-family: 'Poppins' sans-serif;
+}
+
+header {
+    background-color:rgb(224, 218, 125);
+    display: flex;
+    justify-content: center;
+    margin: .5rem 20rem .5rem 20rem;
+}
+
+section {
+    margin: 2rem 0;
+}
+
+.biography{
+     display: flex;
+
+}
+
+.container {
+    width: 960px;
+    border: 1px solid cyan;
+    height: 100%;
+}
+
+.profile-pic {
+    max-height: 260px;
+    justify-content: left;
+}
+
+.biohazard {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.choose {
+    background-color: rgb(22, 156, 173);
+    margin-left: 1rem;
+    margin-right: 1rem;
+    padding: .5rem .5rem 1.5rem .5rem;
+    font-size: larger;
+}
+
+.choose h4 {
+    margin-bottom: 1rem;
+}
+
+.tech {
+    display: flex;
+    justify-content: space-between;
+}
+
+figure {
+    max-width: 100px;
+    justify-content: center;
+}
+
+figure img {
+    width: 180px;
+    height: 180px;
+}
+
+figcaption {
+    text-align: center;
+    font-size: 1.25rem;
+    position: relative;
+    bottom: 30px;
+    color: #ddd;
+    background-color: rgba(3,3,3, .5);
+    padding: .25rem;
+}
+
+footer p {
+    text-align: center;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+footer {
+    color: rgba(255, 255, 255, 0.61);
+}
+
+.excited {
+    color: rgba(255, 255, 255, 0.61);
+}
+
+.excited div{
+    background-color: #bdb4b4;
+    padding: 1rem; 
+}
+
+.excited h2{
+    color: #8DECFC;
+    margin: 2rem 0;
+}
+
+.excited h4 {
+    font-size: larger;
+    color: #0bafd8;
+    margin-bottom: 1rem;
+}
+.intro{ 
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        padding: 1rem;
+    }
+    .namedate{
+        display: flex;
+        justify-content: center;
+         }
+    .namedate > h2{
+        font-size: x-large; 
+        font-weight: bold;
+    }
+    time{
+        font-size: x-large;
+        font-weight: bold;
+    }     
+    p{
+   border: thick double #0bafd8;
+    }
